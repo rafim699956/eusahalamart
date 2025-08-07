@@ -1,0 +1,117 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+/* global color */
+:root {
+   --color-primary: #176041;
+   --color-white: #FFFFFF;
+   --color-primary-500: #176041;
+   --color-primary-600: #15573B;
+   --color-primary-700: #10442E;
+   --color-primary-800: #0D3524;
+   --color-primary-900: #0A281B;
+   --font-quicksand: "Quicksand", sans-serif;
+   --font-poppins: "Poppins", sans-serif;
+   --font-dm-sans: "DM Sans", sans-serif;
+   --font-abril-fatface: "Abril Fatface", serif;
+   --font-inter: "Inter", sans-serif;
+}
+
+/* reset css */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+ol,
+ul {
+   list-style: none;
+}
+
+blockquote,
+q {
+   quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+   content: '';
+   content: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+a {
+   text-decoration: none;
+   display: inline-block;
+}
+
+img {
+   width: 100%;
+   max-width: 100%;
+   object-fit: cover
+}
+
+.container {
+   max-width: 1624px;
+   ;
+   padding: 0 12px;
+   margin: 0 auto;
+}
+
+/* typrography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: var(--font-quicksand);
+}
+
+h1,
+.h1 {
+   font-weight: 600;
+   font-size: 72px;
+   line-height: 90px;
+   color: #231F20;
+}
+
+h2,
+.h2 {
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 45px;
+   letter-spacing: -1.35px;
+   color: var(--color-primary-700);
+}
+
+h3,
+.h3 {
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 40px;
+   color: var(--color-primary-800);
+}
+
+h4,
+.h4 {
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 30px;
+   color: #253D4E;
+}
+
+h5,
+.h5 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 28px;
+   color: var(--color-white);
+}
